@@ -1,0 +1,69 @@
+ul li:nth-child(1)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+
+ul li:nth-child(2)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+ul li:nth-child(3)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+
+ul li:nth-child(4)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+ul li:nth-child(5)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+ul li:nth-child(6)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+ul li:nth-child(7)::before{
+    padding: 10px;
+    content: "\00D7";
+    color: red;
+}
+ul li:nth-child(8)::before{
+    padding: 10px;
+    content:"\00BB";
+    color: blue;
+}
+ul li:nth-child(9)::before{
+    padding: 10px;
+    content: "\00D7";
+    color: red;
+}
+ul li:nth-child(3)::after{
+    padding: 10px;
+    content:"\21D2";
+    color: coral;
+} 
+ul li:nth-child(5)::after{
+    padding: 10px;
+    content:"\21D2";
+    color: coral;   
+} 
+ul li:nth-child(5):hover::after{
+    content:"\2026 last symbol is a";
+    color: coral;
+    font-style: italic;
+}
+ul li:nth-child(3) a{
+    color: green;
+}
+
+ul li:nth-child(6) a{
+    color: green;
+}

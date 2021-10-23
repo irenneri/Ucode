@@ -1,0 +1,110 @@
+*,*:before,*:after{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;}
+    
+body{
+    background-color:#808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color:black;}
+.wrapper{
+ padding: 0px 100px 100px 1100px;  }
+.menu{display: flex;}
+.menu a{text-decoration: none;}
+.menu li{
+        position: relative;
+        list-style: none;}
+
+.menu_list1{
+    display: flex;
+justify-content: center;}
+.menu_list2{
+    display: flex;
+justify-content: center;}
+
+.menu_list1>li:hover .sub-menu_list1{display: block;}
+.menu_list2>li:hover .sub-menu_list2{display: block;}
+
+.menu_link1{
+    color: white;
+    background-color:red}
+.menu_link2{
+    width: 200px;
+    color: white;
+    background-color: black}
+
+.sub-menu_link1{
+    color: red;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;}
+.sub-menu_link2{
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;}
+
+.sub-menu_list1{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50;
+    background-color: white;}
+.sub-menu_list2{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50;
+    background-color: white;}
+
+.sub-menu_list1>li:hover .sub-sub-menu_list1{display: block;}
+.sub-menu_list2>li:hover .sub-sub-menu_list2{display: block;}
+
+.sub-sub-menu_link1{
+    width: auto;
+    color: white;
+    background-color:red;
+    display: inline-block;
+    padding: 5px 10px;
+   }
+.sub-sub-menu_link2{
+    width: auto;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    }
+
+.sub-sub-menu_list1{
+display: none;
+position: absolute;
+top: 0;
+right: 100%;
+min-width: 300;
+padding: 0px 0px 0px 5px;
+}
+.sub-sub-menu_list2{
+display: none;
+position: absolute;
+top: 0;
+left: 100%;
+min-width: 300;
+padding: 0px 0px 0px 5px;
+}
+.sub-sub-menu_list1>li{
+top: 0px;
+color: white;
+background-color: red;}
+.sub-sub-menu_list2>li{
+color: white;
+background-color: black;}
+
+.menu li a:hover {
+    background-color: #a09797;
+    color: #030303;
+    box-shadow: 1px 5px 10px -5px rgb(233, 227, 227);
+}

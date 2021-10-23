@@ -1,0 +1,19 @@
+.Circle{
+width: 400px;
+height: 400px;
+background-color: green;
+border-radius: 100%;
+animation: 3s linear 1s infinite alternate Circle;}
+
+.Circle:hover{
+    background-color: red;
+    transition: 2s;}
+
+@keyframes Circle {
+    from{
+        margin-left: -5%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}

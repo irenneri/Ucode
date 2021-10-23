@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blue;
+    float: left;
+    width: 95%;
+    height: 2em;
+    color: green;
+    border-radius: 5%;}
+
+button{
+   padding: 10px;
+   font-size: 17px;
+   border: 1px solid gray;
+   float: left;
+   width: 5%;
+   height: 2em;
+   color: green;
+   border-radius: 5%;}
+button:hover{color: red;}
+
+h1{text-align: center;}
+
+.search{display: flex;}
+
+input:hover{
+color: red;
+}

@@ -1,0 +1,32 @@
+table {
+    background-color: white;
+    width: 100%;
+}
+th {
+    background-color: black;
+    color:white;
+
+}
+.soul{
+    background-color: orange;
+}
+.time{
+background-color: green;
+}
+.space{
+    background-color: blue;
+}
+.mind {
+    background-color: yellow;
+}
+.realityred
+{
+    background-color: red;
+}
+.power_purple{
+    background-color: rebeccapurple;
+}
+img {
+    height: 120px;
+    border-radius: 30px;
+}

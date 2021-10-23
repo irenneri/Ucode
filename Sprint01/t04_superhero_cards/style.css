@@ -1,0 +1,104 @@
+
+.cards{display: flex;
+    flex-wrap: wrap;
+    }
+.cap{
+    margin: 50px;
+    top: 50px;
+    left: 30px;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#4568DC, #B06AB3);}
+.iron{
+    margin: 50px;
+    top: 50px;
+    left: 330px;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27, #b31217);}
+.black{
+    margin: 50px;
+    top: 50px;
+    left: 630px;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#000, #61045F);}
+.spider{ 
+    margin: 50px;
+    top: 50px;
+    left: 930px;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27, #000);}
+.photo{
+    position: relative;
+    bottom: 42px;
+    left: 5px;
+    width: 130px;
+    height: 182px;}
+.photos{
+    position: relative;
+    bottom: 0px;
+    left: 5px;
+    width: 130px;
+    height: 182px;}
+.alias1{
+    position: relative;
+    bottom: 190px;
+    left: 170px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;}
+.name1{
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 9px;}
+.alias2{
+    position: relative;
+    bottom: 190px;
+    left: 210px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;}
+.name2{
+    position: relative;
+    bottom: 200px;
+    left: 212px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 9px;}
+.alias3{
+    position: relative;
+    bottom: 190px;
+    left: 190px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;}
+.name3{
+    position: relative;
+    bottom: 200px;
+    left: 183px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 9px;}
+.alias4{
+    position: relative;
+    bottom: 190px;
+    left: 200px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;}
+.name4{
+    position: relative;
+    bottom:200px;
+    left: 210px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 9px;}

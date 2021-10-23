@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+}
+.content-table{
+    background: linear-gradient(to right, #6e0000, antiquewhite);
+    border: 4px solid black;
+    width: 900px;
+    height: 568px;
+}
+.header{
+    color: #ffe369;
+    font-weight: bold;
+    background-color: rgba(110, 0, 0, 0.4);
+    border: 2px rgba(189, 195, 199, 0.05);
+    padding: 0px;
+    height: 50px;
+ 
+}
+.sto{
+    background-color: darkred;
+    color: white;
+    
+}
+.true{
+    color: midnightblue;
+    background-color: antiquewhite;
+    padding: 5;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+}
+.names{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right, #6e0000, antiquewhite);
+}
+.link {
+    text-align: center;
+    padding: 10px;
+}
+.link > td > a{
+    color: white;
+}

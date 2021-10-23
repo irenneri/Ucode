@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="t05. settings">
+    <title>Superhero App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="h1">Superhero Form</h1>
+    <form class="form" action="/" method="post">
+        <fieldset>
+            <form class="form">
+                <fieldset>
+                    <p></p>
+                    <legend>About the Superhero</legend>
+                        <label class="labelname">Real Name</label>
+                            <input autofocus type="text" placeholder="Superhero real name" name="Superhero real name" id="name">
+                        <label class="labelname">Superhero Name</label>
+                            <input type="text" placeholder="Superhero alias" name="Superhero alias" id="alias">
+                        <label class="labelname">Age</label>
+                            <input type="number" min="1" max="99" step="1" name="age" id="age"><br>
+                        <p></p>
+                    <label class="labelname">About</label>
+                    <textarea class="textarea" placeholder="Information about the superhero, max 500 symbols" rows="5" cols="70" maxlength="500"></textarea><br>
+                        <p></p>
+                    <label class="labelname">Photo:</label>
+                    <input type="file">
+                    <p></p>
+                </fieldset>
+            </form>
+            <form class="form">
+                <fieldset>
+                <legend>Powers</legend><br>
+                <input id="telek" type="checkbox" name="font"><label for="telek"></label>
+                    <label>Telekinesis</label>
+                <input id="SSS" type="checkbox" name="font"><label for="SSS"></label>
+                    <label>Super strenght or speed</label>
+                <input id="shape" type="checkbox" name="font"><label for="shape"></label>
+                    <label>Shapeshifting</label>
+                <input id="flight" type="checkbox" name="font"><label for="flight"></label>
+                    <label>Flight</label>
+                <input id="element" type="checkbox" name="font"><label for="element"></label>
+                    <label>Elemental control</label>
+                <input id="other" type="checkbox" name="font"><label for="other"></label>
+                    <label>Other</label><br>
+                    <p></p>
+                <div class="range">
+                    <label class="labelname">Level of control:</label>
+                        <input type="range" min="0" max="10" step="1" value="1" class="slider" id="myRange">
+                        <p></p>
+                </fieldset>
+            </form>
+            <form class="form">
+                <fieldset>
+                <legend>Origin of Powers</legend><br>
+                <input id="unknown" type="radio" name="font"><label for="unknown"></label>
+                    <label>Unknown</label>
+                <input id="freak" type="radio" name="font"><label for="freak"></label>
+                    <label>Freak lab accident</label>
+                <input id="chosen" type="radio" name="font"><label for="chosen"></label>
+                    <label>Chosen by an ancient wise being</label>
+                <input id="not-human" type="radio" name="font"><label for="not_human"></label>
+                    <label>The superhero is not human</label>
+                <input id="other2" type="radio" name="font" ><label for="other2"></label>
+                    <label>Other</label>
+                    <p></p>
+                </fieldset>
+            </form>
+            <div class="button">
+                <p></p>
+                <button type="button">Clear</button>
+                <button type="button">Send</button>
+                <p></p>
+            </div>
+        </fieldset>
+        
+    </form>
+
+
+
+            
+            
+            
+        

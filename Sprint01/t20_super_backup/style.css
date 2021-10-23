@@ -1,0 +1,62 @@
+*{font-family: "Source Sans Pro", sans-serif;}
+
+body{margin: 0 40px;}
+
+h1{color: #e15d8a;}
+
+h2{
+    color: gray;
+    text-align: center;}
+
+.input_con > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+div > input[type="checkbox"]{
+   visibility: hidden;
+   position: absolute;}
+
+label{
+    width: 250px;
+    text-align: center;
+    color: #cdc7bd;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 15px;}
+
+div > input[type="checkbox"]:checked + label{
+    color: white;
+    border: 1px solid #1d2c4a;
+    background-color: #1d2c4a;}
+
+div > input[type="checkbox"]:checked + label::after{
+    content: "\2009✓";}
+
+input[type="text"]{
+    height: 30px;
+    font-size: 1em;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid #cdc7bd;}
+
+input[name="name"]{margin-right: 50px;}
+
+div > input[type="text"]{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+button{
+    background-color: #e15d8a;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;}
+
+button:hover{
+    transition: 1s;
+    background-color: #1d2c4a;}

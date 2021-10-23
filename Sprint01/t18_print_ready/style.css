@@ -1,0 +1,9 @@
+.all {
+    text-align: justify;
+}
+img {float: left;}
+@media print{
+    img{
+        float: none;
+    }
+}
